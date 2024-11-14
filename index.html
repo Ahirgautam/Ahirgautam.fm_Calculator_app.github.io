@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+    <main>
+      <div class="calculator">
+        <div class="heading">
+          <h1>calc</h1>
+          <div class="switchContainer">
+            <h4>THEAM</h4>
+            <div class="toggleContainer">
+              <div class="labels">
+                  <label for="radio1">1</label>
+                  <label for="radio2">2</label>
+                  <label for="radio3">3</label>
+              </div>
+              <div class="radioContainer">
+                  <div class="toggleSwitch">
+                      <label class="radioLabel" for="radio1"><input type="radio" id="radio1" name="theambtn"></label>
+                      <label class="radioLabel" for="radio2"><input type="radio" id="radio2" name="theambtn"></label>
+                      <label class="radioLabel" for="radio3"><input type="radio" id="radio3" name="theambtn"></label>
+      
+                      <span class="circle"></span>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <input type="text" id="display" readonly>
+        </div>
+        <div class="keypad">
+          <div  class="key">7</div>
+          <div  class="key">8</div>
+          <div  class="key">9</div>
+          <div  class="key delete">DLE</div>
+          <div  class="key">4</div>
+          <div  class="key">5</div>
+          <div  class="key">6</div>
+          <div  class="key">+</div>
+          <div  class="key">1</div>
+          <div  class="key">2</div>
+          <div  class="key">3</div>
+          <div  class="key">-</div>
+          <div  class="key">.</div>
+          <div  class="key">0</div>
+          <div  class="key">/</div>
+          <div  class="key">x</div>
+          <div  class="key reset">RESET</div>
+          <div  class="key equal">=</div>
+        </div>
+      </div>
+    </main>
+</body>
+</html>
